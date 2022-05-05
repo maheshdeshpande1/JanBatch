@@ -7,7 +7,7 @@ public class DemoTest {
 	
 	@Test
 	public void test() {
-		
+		System.out.println("I have modified the test ");
 	}
 	
 	
@@ -19,5 +19,10 @@ public class DemoTest {
 	@Test(dependsOnMethods = {"test2"})
 	public void test3() {
 		
+	}
+	
+	@Test
+	public void sample() {
+		System.out.println("Sample");
 	}
 }
