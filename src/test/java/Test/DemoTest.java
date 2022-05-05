@@ -21,4 +21,8 @@ public class DemoTest {
 		
 	}
 	
+	@Test
+	public void sample() {
+		System.out.println("Sample");
+	}
 }
